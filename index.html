@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Web Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <div class="container py-4"> -->
+    <header class="pt-3">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <h3 class="navbar-brand px-5 font-weight:bolder">
+          Abacus Convontion Center
+        </h3>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: 1.2rem" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: 1.2rem" href="#"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: 1.2rem" href="#"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: 1.2rem" href="#"
+                >Subscribe</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- carousel start -->
+
+    <main class="pb-5 col-sm-12">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="images/4.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption text-primary">
+              <h5 style="font-size: 2rem">The Perfect venue for your</h5>
+              <h5 style="font-size: 2rem">Next event</h5>
+              <p style="font-size: 1.3rem">
+                Some representative placeholder content for the first slide.
+              </p>
+              <butto class="btn btn-primary">Book Now</butto>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/5.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption text-primary">
+              <h5 style="font-size: 2rem">The Perfect venue for your</h5>
+              <h5 style="font-size: 2rem">Next event</h5>
+              <p style="font-size: 1.3rem">
+                Some representative placeholder content for the second slide.
+              </p>
+              <butto class="btn btn-primary">Book Now</butto>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/6.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption text-primary">
+              <h5 style="font-size: 2rem">The Perfect venue for your</h5>
+              <h5 style="font-size: 2rem">Next event</h5>
+              <p style="font-size: 1.3rem">
+                Some representative placeholder content for the third slide.
+              </p>
+              <butto class="btn btn-primary">Book Now</butto>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+
+    <!-- carousel end -->
+
+    <!-- banner section start -->
+
+    <div class="container d-lg-flex my-5 col-md-12 col-sm-12">
+      <div class="image-sec mx-4">
+        <img src="images/n1.jpg"alt="">
+      </div>
+      <div class="precius my-5">
+        <div class="toast show align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="d-flex">
+            <div class="toast-body">
+              Hello, world! This is a toast message.
+            </div>
+            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+        </div>
+        <h3>Every Moment is Precious</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo quis quisquam voluptatem laboriosam quasi quibusdam vero, voluptates error quaerat reiciendis? Mollitia suscipit quis dolorem cum esse fuga non voluptatum accusamus.</p>
+
+        <button class="btn btn-primary my-5">Explore our album-></button>
+      </div>
+      
+    </div>
+
+    <!-- banner section end -->
+
+    <!-- card-section start -->
+
+    <div class="container">
+      <div class="Tutorial-section">
+        <div class="title text-center">
+          <h2 class="py-5">Our Package</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="card-body">
+              <h2>$300</h2>
+              <h4>Business Fair</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Reiciendis, laudantium?
+              </p>
+
+              <div class="checkbox pb-3">
+
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Full space access
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Management support
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Food arrangement
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Decoration design
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Event support
+                  </label>
+                </div>
+
+              </div>
+
+              
+              <button class="btn btn-secondary btn-sm d-grid gap-2 col-5 mx-0 rounded">choose plan</button>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card-body">
+              <h2>$500</h2>
+              <h4>Wedding basic</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Reiciendis, laudantium?
+              </p>
+
+              <div class="checkbox pb-3">
+
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Full space access
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Management support
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Food arrangement
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Decoration design
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Event support
+                  </label>
+                </div>
+
+              </div>
+
+              
+              <button class="btn btn-secondary btn-sm d-grid gap-2 col-5 mx-0 rounded">choose plan</button>
+            </div>
+          </div>
+
+          <div class="col-lg-3 shadow-lg p-3 mb-5 bg-secondary rounded">
+            <div class="card-body">
+              <h2>$800</h2>
+              <h4>Wedding plus</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Reiciendis, laudantium?
+              </p>
+
+              <div class="checkbox pb-3">
+
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Full space access
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Management support
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Food arrangement
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Decoration design
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Event support
+                  </label>
+                </div>
+
+              </div>
+
+              
+              <button class="btn btn-primary btn-sm d-grid gap-2 col-5 mx-0 rounded">choose plan</button>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card-body">
+              <h2>$1200</h2>
+              <h4>Corporate event</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Reiciendis, laudantium?
+              </p>
+
+              <div class="checkbox pb-3">
+
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Full space access
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Management support
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Food arrangement
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Decoration design
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Event support
+                  </label>
+                </div>
+
+              </div>
+
+
+
+
+              <button class="btn btn-secondary btn-sm d-grid gap-2 col-5 mx-0 rounded">choose plan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- card-section end -->
+
+
+
+    <!-- 2nd card section start -->
+
+    <div class="container">
+
+      <div class="Tutorial-section">
+        <div class="title text-center">
+          <h2 class="py-5">Happy Clients says</h2>
+        </div>
+  
+  
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+              <div class="card card-img-top">
+                  <img src="images/11.jpg"height="260px"alt="logo">
+                  <div class="card-body">
+                      <h6 class="card-title text-center">Regina Miles</h6>
+                      <p class="text-center">Banker</p>
+                      
+                      <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam doloribus ut perferendis, quidem labore sequi quo voluptates beatae mollitia vitae!</p>
+                      
+                  </div>
+              </div>
+          </div>
+  
+  
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+            <div class="card card-img-top">
+                <img src="images/22.jpg"height="260px"alt="logo">
+                <div class="card-body">
+                    <h6 class="card-title text-center">AB de Villiers</h6>
+                    <p class="text-center">Cricket</p>
+                    
+                    <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam doloribus ut perferendis, quidem labore sequi quo voluptates beatae mollitia vitae!</p>
+                    
+                </div>
+            </div>
+        </div>
+  
+  
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+          <div class="card card-img-top">
+              <img src="images/33.jpg"height="260px"alt="logo">
+              <div class="card-body">
+                  <h6 class="card-title text-center">Rose</h6>
+                  <p class="text-center">Docter</p>
+                  
+                  <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam doloribus ut perferendis, quidem labore sequi quo voluptates beatae mollitia vitae!</p>
+                  
+              </div>
+          </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+        <div class="card card-img-top">
+            <img src="images/44.jpg"height="260px"alt="logo">
+            <div class="card-body">
+                <h6 class="card-title text-center">Emma Watson</h6>
+                <p class="text-center">Engineer</p>
+                
+                <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam doloribus ut perferendis, quidem labore sequi quo voluptates beatae mollitia vitae!</p>
+                
+            </div>
+        </div>
+    </div>
+  
+
+    </div>
+
+    <!-- 2nd card section end -->
+
+<!-- 3rd card section start -->
+
+<div class="container">
+
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+          <div class="card card-img-top">
+              <img src="images/w-1.jpg"height="260px"alt="logo">
+              <div class="card-body">
+                  <h6 class="card-title text-center">Robert Hucks</h6>
+                  <p class="text-center">Banker</p>
+                  
+                  <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam doloribus ut perferendis, quidem labore sequi quo voluptates beatae mollitia vitae!</p>
+                  
+              </div>
+          </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+        <div class="card card-img-top">
+            <img src="images/w-2.jpg"height="260px"alt="logo">
+            <div class="card-body">
+                <h6 class="card-title text-center">Cristofar</h6>
+                <p class="text-center">Cricket</p>
+                
+                <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam doloribus ut perferendis, quidem labore sequi quo voluptates beatae mollitia vitae!</p>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+      <div class="card card-img-top">
+          <img src="images/w-3.jpg"height="260px"alt="logo">
+          <div class="card-body">
+              <h6 class="card-title text-center">Rojesa</h6>
+              <p class="text-center">Docter</p>
+              
+              <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam doloribus ut perferendis, quidem labore sequi quo voluptates beatae mollitia vitae!</p>
+              
+          </div>
+      </div>
+  </div>
+
+
+  <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+    <div class="card card-img-top">
+        <img src="images/w-4.jpg"height="260px"alt="logo">
+        <div class="card-body">
+            <h6 class="card-title text-center">Jack</h6>
+            <p class="text-center">Engineer</p>
+            
+            <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam doloribus ut perferendis, quidem labore sequi quo voluptates beatae mollitia vitae!</p>
+            
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<!-- 3rd card section end -->
+
+    <!-- accordionation start -->
+    <div class="frequent">
+      <h2 class="text-center my-5">Frequently Asked Question</h2>
+    </div>
+
+    <div class="container d-lg-flex my-5">
+
+
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-sec mx-4">
+        <img src="images/n2.jpg"alt="">
+      </div>
+
+    </div>
+
+    <!-- accordionation end -->
+
+      <!-- footer section start -->
+
+      <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+
+  <footer class="text-white text-center text-lg-start bg-dark">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row mt-4">
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">About company</h5>
+
+        <p>
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+          voluptatum deleniti atque corrupti.
+        </p>
+
+        <p>
+          Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+          molestias.
+        </p>
+
+        <div class="mt-4">
+          <!-- Facebook -->
+          <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-facebook-f"></i></a>
+          <!-- Dribbble -->
+          <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-dribbble"></i></a>
+          <!-- Twitter -->
+          <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-twitter"></i></a>
+          <!-- Google + -->
+          <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-google-plus-g"></i></a>
+          <!-- Linkedin -->
+        </div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+        <div class="form-outline form-white mb-4">
+          <input type="text" id="formControlLg" class="form-control form-control-lg" />
+          <label class="form-label" for="formControlLg">Search</label>
+        </div>
+
+        <ul class="fa-ul" style="margin-left: 1.65em;">
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 234 567 89</span>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+        <table class="table text-center text-white">
+          <tbody class="font-weight-normal">
+            <tr>
+              <td>Mon - Thu:</td>
+              <td>8am - 9pm</td>
+            </tr>
+            <tr>
+              <td>Fri - Sat:</td>
+              <td>8am - 1am</td>
+            </tr>
+            <tr>
+              <td>Sunday:</td>
+              <td>9am - 10pm</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+</div>
+<!-- End of .container -->
+
+      <!-- footer section end -->
+
+
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
